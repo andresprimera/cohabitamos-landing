@@ -5,10 +5,10 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
+          <h2>Funcionalidades</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Todas nuestras funcionalidades están pensadas para hacerte la vida
+            más fácil.
           </p>
         </div>
         <div className="row">
@@ -25,6 +25,10 @@ export const Services = (props) => {
               ))
             : "loading"}
         </div>
+        <p>
+          Constantemente estamos incorporando funcionalidades nuevas que están
+          incluidas en el pago de la herramienta.
+        </p>
       </div>
     </div>
   );

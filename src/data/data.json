@@ -1,90 +1,67 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Una solución única para todos tus edificios",
+    "paragraph": "Somos una herramienta desarrollada por administradores para administradores cuyo objetivo es optimizar los procesos operativos de un administrador de propiedad horizontal."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Entendemos la frustración al encontrar soluciones pensadas para copropiedades o contadores que terminan generando más trabajo para los administradores en lugar de agilizar sus tareas. Por eso, hemos creado una herramienta diseñada exclusivamente para administradores que tiene como objetivo brindarles un mayor control sobre todas las propiedades, a través de procesos simplificados. Nuestra meta es mejorar la eficiencia en la gestión en general, lo que finalmente resulta en una mejor prestación de servicios y una menor carga de trabajo.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "+ Resultados - Desgaste",
+      "Buena relación costo beneficio",
+      "Una sola herramienta para todos tus edificios.",
+      "Siempre en desarrollo de nuevas funcionalidades"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Sin descargas o instalaciones de software.",
+      "Acceso desde cualquier dispositivo."
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "icon": "fa fa-user fa-5x",
+      "title": "Plan Pyme",
+      "price": "$50.000 COP x torre",
+      "towers": "hasta 4 torres",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "icon": "fa fa-briefcase fa-5x",
+      "title": "Plan Emprendedor",
+      "price": "$42.000 COP x torre",
+      "towers": "de 5 a 10 torres",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "icon": "fa fa-building fa-5x",
+      "title": "Plan Empresarial",
+      "price": "$35.000 COP x torre",
+      "towers": "más de 10 torres",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "No más grupos de WhatsApp.",
+      "text": "Nos convertimos en el canal oficial de comunicación entre usted y los copropietarios y residentes, centralizando las comunicaciones de todos sus edificios."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Gestión automatizada de PQRS",
+      "text": "El usuario reporta los PQRs usando un QR de forma sencilla e intuitiva y, a medida que se hace la evolución del caso, se nototifica de manera automática al interesado."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Control y gestión de tareas",
+      "text": "El sistema permite cargar las tareas para cada copropiedad y hacer seguimiento de las mismas definiendo fechas de entrega y prioridad, así como agregar comentarios y adjuntar archivos."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Reporte de visitantes",
+      "text": "Olvida la necesidad de reportar a recepción el ingreso de personal a cada copropiedad. El usuario podrá hacer su notificación de visitante, la cual es accesible de forma automática por el personal de recepción."
     },
     {
       "icon": "fa fa-plane",
@@ -162,23 +139,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Pensado para tí.",
+      "text": "Estamos cansados de soluciones pensadas para las copropiedades o contadores pero que en el fondo generan más trabajo para el administrador en lugar de facilitarle la vida. Por eso, hemos creado una herramienta pensada para el administrador, que le permita optimizar sus procesos operativos y que le permita tener un mayor control de sus copropiedades."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Automatización de reporte, gestión y seguimiento de PQRS",
+      "text": "El usuario reporta los PQRs usando un QR de forma sencilla e intuitiva y, a medida que se hace la evolución del caso, se nototifica de manera automática al interesado."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Control y gestión de tareas",
+      "text": "El sistema permite cargar las tareas para cada copropiedad y hacer seguimiento de las mismas en función de sus tiempos de entrega y prioridad."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Reporte de visitantes",
+      "text": "Olvida la necesidad de reportar a recepción."
     }
   ]
 }

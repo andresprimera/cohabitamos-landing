@@ -6,10 +6,14 @@ export const Gallery = (props) => {
     <div id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
+          <h2>TARIFAS</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Nuestras tarifas se calculan en función de las torres que necesite
+            administrar independientemente del número de unidades.
+          </p>
+          <p>
+            Las torres pueden estar dentro del mismo conjunto o pertenecer a
+            conjuntos diferentes.
           </p>
         </div>
         <div className="row">
@@ -18,12 +22,15 @@ export const Gallery = (props) => {
               ? props.data.map((d, i) => (
                   <div
                     key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-4"
+                    className="grid col-sm-6 col-md-4 col-lg-4 gap-3"
                   >
                     <Image
                       title={d.title}
                       largeImage={d.largeImage}
                       smallImage={d.smallImage}
+                      price={d.price}
+                      towers={d.towers}
+                      icon={d.icon}
                     />
                   </div>
                 ))
