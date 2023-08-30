@@ -1,4 +1,5 @@
 import React from "react";
+import SvgLogo from "../assets/svg/SvgLogo";
 
 export const Navigation = (props) => {
   return (
@@ -11,15 +12,14 @@ export const Navigation = (props) => {
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
             <span className="sr-only">Toggle navigation</span>{" "}
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            Cohabitamos
-          </a>{" "}
+          <a href="#page-top">
+            <SvgLogo />
+          </a>
         </div>
 
         <div
@@ -44,10 +44,10 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#portfolio" className="page-scroll">
-                Gallery
+                Tarifas
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#testimonials" className="page-scroll">
                 Testimonials
               </a>
@@ -56,10 +56,10 @@ export const Navigation = (props) => {
               <a href="#team" className="page-scroll">
                 Team
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="page-scroll">
-                Contact
+                Contacto
               </a>
             </li>
           </ul>

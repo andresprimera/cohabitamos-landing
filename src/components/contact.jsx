@@ -1,6 +1,9 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+import CodingBoxLogo from "../assets/svg/CodingLogo";
+import CodingBoxColoredLogo from "../assets/svg/CodingBoxColoredLogo";
+import SvgComponent from "../assets/svg/CodingBoxColoredLogo";
 
 const initialState = {
   name: "",
@@ -38,76 +41,40 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
+                <h2>¿Necesitas más información?</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Agenda una reunión de 30 minutos con nuestro equipo para
+                  conocer más a fondo las ventajas de cohabitamos y cómo podemos
+                  ayudarte con el día a día de tu gestión como administrador de
+                  Propiedad Horizontal.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="form-control"
-                        placeholder="Name"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-control"
-                        placeholder="Email"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                </div>
-                <div className="form-group">
-                  <textarea
-                    name="message"
-                    id="message"
-                    className="form-control"
-                    rows="4"
-                    placeholder="Message"
-                    required
-                    onChange={handleChange}
-                  ></textarea>
-                  <p className="help-block text-danger"></p>
-                </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
-                </button>
+                <a
+                  href="https://calendly.com/codingboxapp/presentacion-cohabitamos"
+                  className="btn btn-custom btn-lg"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Agendar una reunión
+                </a>
               </form>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Contact Info</h3>
-              <p>
+              <h3>Información de contacto</h3>
+              {/* <p>
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
                 {props.data ? props.data.address : "loading"}
-              </p>
+              </p> */}
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i className="fa fa-phone"></i> Teléfono
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
@@ -147,13 +114,18 @@ export const Contact = (props) => {
         </div>
       </div>
       <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
-          </p>
+        <div
+          className="container "
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          &copy; 2023 Todos los derechos reservados. Un Producto de:{" "}
+          <a href="http://www.codingbox.app" rel="nofollow">
+            <SvgComponent />
+          </a>
         </div>
       </div>
     </div>

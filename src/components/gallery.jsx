@@ -37,6 +37,19 @@ export const Gallery = (props) => {
               : "Loading..."}
           </div>
         </div>
+        <div>
+          <h3>Registrate ahora para optener 60 días de prueba gratis.</h3>
+          <div className="btn-container">
+            <a
+              href="https://dev.cohabitamos.com/registro"
+              target="_blank"
+              className="btn btn-cta btn-lg"
+              rel="noreferrer"
+            >
+              Registrarme
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -19,59 +19,59 @@
   "Gallery": [
     {
       "icon": "fa fa-user fa-5x",
-      "title": "Plan Pyme",
-      "price": "$50.000 COP x torre",
-      "towers": "hasta 4 torres",
+      "title": "Pyme",
+      "price": "$40.000 COP mensuales x torre",
+      "towers": "De 1 a 5 torre",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
       "icon": "fa fa-briefcase fa-5x",
-      "title": "Plan Emprendedor",
-      "price": "$42.000 COP x torre",
-      "towers": "de 5 a 10 torres",
+      "title": "Emprendedor",
+      "price": "$33.000 COP mensuales x torre",
+      "towers": "De 6 a 10 torres",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
       "icon": "fa fa-building fa-5x",
-      "title": "Plan Empresarial",
-      "price": "$35.000 COP x torre",
-      "towers": "más de 10 torres",
+      "title": "Empresarial",
+      "price": "$28.000 COP mensuales x torre",
+      "towers": "De 10 en adelante",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "icon": "fa fa-whatsapp",
       "name": "No más grupos de WhatsApp.",
       "text": "Nos convertimos en el canal oficial de comunicación entre usted y los copropietarios y residentes, centralizando las comunicaciones de todos sus edificios."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "icon": "fa fa-comment",
       "name": "Gestión automatizada de PQRS",
       "text": "El usuario reporta los PQRs usando un QR de forma sencilla e intuitiva y, a medida que se hace la evolución del caso, se nototifica de manera automática al interesado."
     },
     {
-      "icon": "fa fa-cloud-download",
+      "icon": "fa fa-list",
       "name": "Control y gestión de tareas",
       "text": "El sistema permite cargar las tareas para cada copropiedad y hacer seguimiento de las mismas definiendo fechas de entrega y prioridad, así como agregar comentarios y adjuntar archivos."
     },
     {
-      "icon": "fa fa-language",
+      "icon": "fa fa-user-plus",
       "name": "Reporte de visitantes",
       "text": "Olvida la necesidad de reportar a recepción el ingreso de personal a cada copropiedad. El usuario podrá hacer su notificación de visitante, la cual es accesible de forma automática por el personal de recepción."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-pie-chart",
+      "name": "Informes de gestión (en desarrollo)",
+      "text": "A través de la información de tareas cargadas, podrás generar informes de gestión con frecuencia semanal o mensual para entregar al consejo de administración."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-user-plus",
+      "name": "Reporte y autorización de trasteos (en desarrollo)",
+      "text": "El usuario diligencia un formulario en linea para solicitar autorización de trasteo, al administrador es notificado en la plataforma, y puede autorizar o no el mismo."
     }
   ],
   "Testimonials": [
@@ -130,8 +130,8 @@
   ],
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "phone": "+57 301 289 0029",
+    "email": "codingboxapp@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"

@@ -5,9 +5,16 @@ export const About = (props) => {
     <div id="about">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+          <div className="col-xs-12 col-md-6" style={{ marginTop: "30px" }}>
+            <img src="img/about.jpeg" className="img-responsive" alt="" />{" "}
+            <p className="btn-container">
+              <a
+                href="#portfolio"
+                className="btn btn-custom btn-lg page-scroll"
+              >
+                Iniciar prueba gratuita
+              </a>
+            </p>
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">

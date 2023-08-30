@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:regular,bold,italic&subset=latin,latin-ext");
+
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -11,7 +13,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 h2 {
   text-transform: uppercase;
@@ -81,14 +83,14 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito", sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 15px;
@@ -162,12 +164,34 @@ hr {
 .section-title p {
   font-size: 18px;
 }
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
   background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  padding: 14px 34px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all 0.5s linear;
+  border: 0;
+}
+
+.btn-cta {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #fa709a;
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -214,19 +238,36 @@ a:focus,
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  overflow: hidden;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
+
+.overlay {
+  padding-top: 180px;
+}
+
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
 }
+
+@media (min-width: 768px) {
+  .overlay {
+    padding-top: 330px;
+  }
+
+  .intro h1 {
+    font-size: 60px;
+  }
+}
+
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
@@ -239,11 +280,18 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
+
 header .intro-text {
-  padding-top: 350px;
+  /* padding-top: 200px; */
   padding-bottom: 200px;
   text-align: center;
 }
+/* 
+@media (min-height: 500px) {
+  .intro-text {
+    padding-top: 350px;
+  }
+} */
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -263,7 +311,7 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
-  background-color: #fce3ee;
+  background-color: #faebf1;
 }
 #about h3 {
   font-size: 22px;
@@ -354,7 +402,17 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
-  background-color: #fce3ee;
+  background-color: #faebf1;
+}
+
+#portfolio .title {
+  color: white;
+  font-weight: 800;
+  margin: 20px auto 10px;
+}
+
+#portfolio h3 {
+  margin: 60px auto 20px;
 }
 
 .portfolio-item {
@@ -517,7 +575,7 @@ header .intro-text {
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   float: left;
 }
 #contact .form-control {
