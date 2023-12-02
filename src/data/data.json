@@ -19,25 +19,25 @@
   "Gallery": [
     {
       "icon": "fa fa-user fa-5x",
-      "title": "Pyme",
-      "price": "$40.000 COP mensuales x torre",
-      "towers": "De 1 a 5 torre",
+      "title": "S",
+      "price": "$40.000 COP",
+      "towers": "Base",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
       "icon": "fa fa-briefcase fa-5x",
-      "title": "Emprendedor",
-      "price": "$33.000 COP mensuales x torre",
-      "towers": "De 6 a 10 torres",
+      "title": "M",
+      "price": "$33.000 COP",
+      "towers": "De 6 conjuntos en adelante",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
       "icon": "fa fa-building fa-5x",
-      "title": "Empresarial",
-      "price": "$28.000 COP mensuales x torre",
-      "towers": "De 10 en adelante",
+      "title": "L",
+      "price": "$28.000 COP",
+      "towers": "De 10 conjuntos en adelante",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     }

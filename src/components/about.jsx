@@ -5,12 +5,23 @@ export const About = (props) => {
     <div id="about">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-6" style={{ marginTop: "30px" }}>
-            <img src="img/about.jpeg" className="img-responsive" alt="" />{" "}
+          <div className="col-xs-12 col-md-6" style={{ marginTop: "50px" }}>
+            {/* <img src="img/about.jpeg" className="img-responsive" alt="" />{" "} */}
+            <iframe
+              title="what is cohabitamos"
+              width="560"
+              height="315"
+              src="https://firebasestorage.googleapis.com/v0/b/cohabitemos-b0425.appspot.com/o/videos%2FPROMOCIONAL.mp4?alt=media&token=6e52a0a7-d1d9-42d5-8240-385386b7bc94"
+              frameborder="0"
+              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+              loading="lazy"
+            ></iframe>
             <p className="btn-container">
               <a
-                href="#portfolio"
-                className="btn btn-custom btn-lg page-scroll"
+                href="https://www.app.cohabitamos.com/registro"
+                target="_blank"
+                className="btn btn-custom btn-lg"
+                rel="noreferrer"
               >
                 Iniciar prueba gratuita
               </a>
