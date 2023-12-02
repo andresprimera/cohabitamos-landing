@@ -29,6 +29,7 @@ export const Gallery = (props) => {
                         borderRadius: 10,
                         background:
                           "linear-gradient(to right,  #5c9df1 100%, rgba(47, 184, 255, 0.42) 31.77%)",
+                        margin: "10px auto",
                       }}
                     >
                       <div
