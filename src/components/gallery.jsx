@@ -16,14 +16,6 @@ export const Gallery = (props) => {
                     key={`${d.title}-${i}`}
                     className="grid col-sm-6 col-md-4 col-lg-4 gap-3"
                   >
-                    {/* <Image
-                      title={d.title}
-                      largeImage={d.largeImage}
-                      smallImage={d.smallImage}
-                      price={d.price}
-                      towers={d.towers}
-                      icon={d.icon}
-                    /> */}
                     <div
                       style={{
                         borderRadius: 10,

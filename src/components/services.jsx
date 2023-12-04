@@ -25,9 +25,8 @@ export const Services = (props) => {
               ))
             : "loading"}
         </div>
-        <div className="service-desc">
-          <h3>¿Cómo funciona?</h3>
-        </div>
+
+        <h3 style={{ fontWeight: 700, fontSize: 34 }}>¿Cómo funciona?</h3>
 
         <div style={{ display: "flex", justifyContent: "center" }}>
           <div
@@ -50,10 +49,21 @@ export const Services = (props) => {
               title="what is cohabitamos"
               src="https://firebasestorage.googleapis.com/v0/b/cohabitemos-b0425.appspot.com/o/videos%2Fadministradores%2FCOMO_FUNCIONA.mp4?alt=media&token=ab50c26d-292e-4340-86f6-89d2c9186e27"
               frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen"
               loading="lazy"
             ></iframe>
           </div>
+        </div>
+
+        <div className="btn-container" style={{ marginTop: 20 }}>
+          <a
+            href="https://www.app.cohabitamos.com/ayuda"
+            target="_blank"
+            className="btn btn-cta btn-lg"
+            rel="noreferrer"
+          >
+            Saber más
+          </a>
         </div>
         <p style={{ marginTop: "15px" }}>
           Constantemente estamos incorporando funcionalidades nuevas que estarán
