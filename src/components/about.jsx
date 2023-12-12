@@ -6,8 +6,6 @@ export const About = (props) => {
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6" style={{ marginTop: "50px" }}>
-            {/* <img src="img/about.jpeg" className="img-responsive" alt="" />{" "} */}
-
             <div
               style={{
                 position: "relative",
