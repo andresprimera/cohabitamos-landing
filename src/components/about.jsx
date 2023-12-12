@@ -7,15 +7,31 @@ export const About = (props) => {
         <div className="row">
           <div className="col-xs-12 col-md-6" style={{ marginTop: "50px" }}>
             {/* <img src="img/about.jpeg" className="img-responsive" alt="" />{" "} */}
-            <iframe
-              title="what is cohabitamos"
-              width="560"
-              height="315"
-              src="https://firebasestorage.googleapis.com/v0/b/cohabitemos-b0425.appspot.com/o/videos%2FPROMOCIONAL.mp4?alt=media&token=6e52a0a7-d1d9-42d5-8240-385386b7bc94"
-              frameborder="0"
-              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-              loading="lazy"
-            ></iframe>
+
+            <div
+              style={{
+                position: "relative",
+                paddingBottom: "56.25%",
+                height: 0,
+                overflow: "hidden",
+                width: "100%",
+              }}
+            >
+              <iframe
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "100%",
+                }}
+                title="what is cohabitamos"
+                src="https://firebasestorage.googleapis.com/v0/b/cohabitemos-b0425.appspot.com/o/videos%2FPROMOCIONAL.mp4?alt=media&token=6e52a0a7-d1d9-42d5-8240-385386b7bc94"
+                frameborder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                loading="lazy"
+              ></iframe>
+            </div>
             <p className="btn-container">
               <a
                 href="https://www.app.cohabitamos.com/registro"
