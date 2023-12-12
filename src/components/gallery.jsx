@@ -8,7 +8,7 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>TARIFAS</h2>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="portfolio-items">
             {props.data
               ? props.data.map((d, i) => (
@@ -49,10 +49,17 @@ export const Gallery = (props) => {
                 ))
               : "Loading..."}
           </div>
-        </div>
+        </div> */}
 
         <div>
-          <h3>Regístrate ahora para obtener 60 días de prueba gratis.</h3>
+          {/* <h3>Regístrate ahora para obtener 60 días de prueba gratis.</h3> */}
+          <h3 style={{ marginTop: 30 }}>
+            Por estar en nuestra versión beta, el servicio no tiene costo.
+          </h3>
+          <p>
+            Así que regístrate y ayúdanos a construir la solución que tu
+            necesitas.
+          </p>
           <div className="btn-container">
             <a
               href="https://app.cohabitamos.com/registro"
@@ -64,14 +71,14 @@ export const Gallery = (props) => {
             </a>
           </div>
 
-          <p style={{ marginTop: 30 }}>
+          {/* <p style={{ marginTop: 30 }}>
             Por estar en nuestra versión beta, los 60 días comenzarán a contar
             en el momento del lanzamiento oficial.
           </p>
           <p>
             Así que regístrate y ayúdanos a construir la solución que tu
             necesitas.
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
